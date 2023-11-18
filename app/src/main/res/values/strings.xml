@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BarberShop</string>
+    <string name="btnregisp">REGISTRASE</string>
+    <string name="btnsesionp">INICIAR SESION</string>
+    <string name="tvregistro">REGISTRO</string>
+    <string name="tvnombre">NOMBRE</string>
+    <string name="tvcelular">CELULAR</string>
+    <string name="tvcorreo">CORREO</string>
+    <string name="tvcontrasena">CONTRASEÑA</string>
+    <string name="tvinicio">INICIAR SESION</string>
+    <string name="btnvalidarsesion">INICIAR SESION</string>
+    <string name="btnvalidarregistro">REGISTRO</string>
+    <string name="btncerrar">CERAR SESION</string>
+    <string name="btneditarp">EDITAR PERFIL</string>
+    <string name="btnperfilbarbers">BARBEROS</string>
+    <string name="btnperfillcitas">SOLICITAR CITAS</string>
+    <string name="btnfecha">FECHA</string>
+    <string name="btnhora">HORA</string>
+    <string name="btnregistrar">REGISTRAR CITA</string>
+    <string name="btnconsultar">CONSULTAR CITA</string>
+    <string name="etinformacion">INFORMACION DE LA CITA</string>
+    <string name="etnombrebarbero">NOMBRE DEL BARBERO</string>
+    <string name="etfechacita">FECHA</string>
+    <string name="ethoracita">HORA</string>
+    <string name="etnumerocelular">CELULAR</string>
+    <string name="btnvolver">VOLVER</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

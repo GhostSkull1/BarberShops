@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo"
+    tools:context=".PantallaInicial">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="539dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnregisp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btncolor"
+            android:onClick="registro"
+            android:text="@string/btnregisp" />
+
+        <Button
+            android:id="@+id/btnsesionp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btncolor"
+            android:onClick="iniciar"
+            android:text="@string/btnsesionp" />
+
+    </LinearLayout>
+</LinearLayout>

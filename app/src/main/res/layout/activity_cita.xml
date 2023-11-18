@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CitaActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/btnfecha"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btncolor"
+            android:text="@string/btnfecha" />
+
+        <EditText
+
+            android:id="@+id/Etfecha"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnhora"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btncolor"
+            android:text="@string/btnhora" />
+
+        <EditText
+
+            android:id="@+id/Ethora"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/perfilnombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE DEL BARBERO"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <EditText
+
+            android:id="@+id/Etnombarbero"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnregistrarcita"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btncolor"
+            android:onClick="volver"
+            android:text="@string/btnregistrar" />
+
+    </LinearLayout>
+
+</LinearLayout>
